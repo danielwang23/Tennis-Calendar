@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    
+
+}
+
+#ballIcon {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 0.5rem;
+    background-image: linear-gradient(to top, #24c8f5 0%, #0247f5 100%);
+}
+
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    background-color: #131617;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 100;
+    background: #131617;
+    
+}
+
+.navbar-title {
+
+    background-image: linear-gradient(to top, #24c8f5 0%, #0247f5 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: 2rem;
+    
+
+    font-size: 30px;
+    /*
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    color:black;
+    */
+    
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #6bcfe8;
+    transition: .05s;
+    
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.navbar a:hover {
+    color: #6bcfe8;
+}
+
+.navbar a {
+    transition: all 0.3s ease 0s;
+}
+
+
+/*TOURNAMENT CONTENT EDIT*/
+.content {
+    padding: 100px 50px;
+    color: #fff;
+}
+
+.content #ATP {
+    text-decoration: none;
+}
+
+.Tournament-Page {
+    background-image: url(./images/tenniscourtsunlight.avif);
+    
+
+}
+
+
+
+
+
+
+
+
+
